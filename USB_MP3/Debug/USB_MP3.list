@@ -4329,7 +4329,7 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size) {
  8002128:	701a      	strb	r2, [r3, #0]
                 break;
  800212a:	e004      	b.n	8002136 <HAL_UARTEx_RxEventCallback+0xb2>
-              case Audio_rePlay:  // 0x05
+              case Audio_resume:  // 0x05
                 AudioState = AUDIO_STATE_RESUME;
  800212c:	4b18      	ldr	r3, [pc, #96]	; (8002190 <HAL_UARTEx_RxEventCallback+0x10c>)
  800212e:	220b      	movs	r2, #11

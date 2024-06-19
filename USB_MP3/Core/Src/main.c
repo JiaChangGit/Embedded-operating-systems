@@ -63,7 +63,7 @@ uint8_t receiveData[20];
 #define Audio_volumnUp 0x02
 #define Audio_volumnDown 0x03
 #define Audio_pause 0x04
-#define Audio_rePlay 0x05
+#define Audio_resume 0x05
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -117,7 +117,7 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size) {
               case Audio_pause:  // 0x04
                 AudioState = AUDIO_STATE_PAUSE;
                 break;
-              case Audio_rePlay:  // 0x05
+              case Audio_resume:  // 0x05
                 AudioState = AUDIO_STATE_RESUME;
                 break;
               default:

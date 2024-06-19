@@ -13,6 +13,34 @@ Developed on STM32CubeIDE 1.11.0, and STM32Cube FW_F4 V1.27.1
 
 (notice: "./USB_MP3/docs"   and   "./USB_MP3/result")
 
+HC05
+
+RXD->PD8
+
+TXD->PB11
+
+VCC50->5V
+
+VCC33->3V
+
+GND->GND
+
+
+LCD16x2
+
+SCL->PA8
+
+SDA->PC9
+
+VCC->5V
+
+GND->GND
+
+
+My YT:
+
+https://www.youtube.com/@Jia81920
+
 
 ## Resource
 
