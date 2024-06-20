@@ -41,6 +41,14 @@ My YT:
 
 https://www.youtube.com/@Jia81920
 
+DEMO:
+
+https://youtu.be/hoxtOU28bmE
+
+How to use:
+
+https://youtu.be/JRACZXBxUdk
+
 
 ## Resource
 
@@ -77,7 +85,7 @@ https://hackmd.io/@cpt/embeddedOS_labs
 
 1. Using Winmerge to check your IDE create a correct file.
 
-  I have encountered VBUS code where the IDE generated errors.
+    I have encountered VBUS code where the IDE generated errors.
 
 2. Find a simple way to check your hardware device, like using Arduino to check LCD.
 
