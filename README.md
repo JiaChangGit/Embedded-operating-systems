@@ -13,28 +13,29 @@ Developed on STM32CubeIDE 1.11.0, and STM32Cube FW_F4 V1.27.1
 
 (notice: "./USB_MP3/docs"   and   "./USB_MP3/result")
 
-HC05
 
-RXD->PD8
+    HC05
 
-TXD->PB11
+RXD <--> PD8
 
-VCC50->5V
+TXD <--> PB11
 
-VCC33->3V
+VCC50 <--> 5V
 
-GND->GND
+VCC33 <--> 3V
+
+GND <--> GND
 
 
-LCD16x2
+    LCD16x2
 
-SCL->PA8
+SCL <--> PA8
 
-SDA->PC9
+SDA <--> PC9
 
-VCC->5V
+VCC <--> 5V
 
-GND->GND
+GND <--> GND
 
 
 My YT:
@@ -48,6 +49,13 @@ https://youtu.be/hoxtOU28bmE
 How to use:
 
 https://youtu.be/JRACZXBxUdk
+
+
+## TODO
+
+Add RTOS(ex: FreeRTOS or RT-Thread)
+
+This project is not stable enough. It is recommended to use RTOS to reconstruct it instead of simply using a state machine.
 
 
 ## Resource
